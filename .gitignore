@@ -1,0 +1,10 @@
+# Build output
+classes/
+lib/
+test-reports/
+Practice/sources.txt
+
+# IntelliJ
+.idea/
+*.iml
+out/
