@@ -6,6 +6,10 @@ public class Matrix {
     public Matrix(int[][] matrix) {
         this.matrix = matrix;
     }
+
+    public Matrix(int rows, int cols) {
+    }
+
     public int[][] getMatrix() {
         return matrix;
     }
