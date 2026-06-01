@@ -23,7 +23,7 @@ class MatrixTest {
     void getMatrix() {
         int[][] result = matrix.getMatrix();
 
-        assertNull(result, "반환된 행렬은 null이 아니어야 합니다.");
+        assertNotNull(result, "반환된 행렬은 null이 아니어야 합니다.");
         assertArrayEquals(testData, result, "getMatrix로 가져온 배열은 초기화할 때 넣은 배열과 일치해야 합니다.");
 
         assertSame(testData, result, "현재 구현은 동일한 배열 참조를 반환해야 합니다.");
