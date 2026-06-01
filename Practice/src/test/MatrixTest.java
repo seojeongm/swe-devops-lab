@@ -37,7 +37,7 @@ class MatrixTest {
         };
 
         matrix.setMatrix(newDataset);
-        assertArrayEquals(newDataset, matrix.getMatrix(), "setMatrix 이후에는 새로운 배열이 반환되어야 합니다.");
+        assertArrayEquals(newDataset, matrix.getMatrix(), "setMatrix 이후에는 새로운 배열이 반환되어야 함.");
     }
 
     @Test
