@@ -37,12 +37,12 @@ class MatrixTest {
         };
 
         matrix.setMatrix(newDataset);
-
-        assertArrayEquals(newDataset, matrix.getMatrix(), "setMatrix 이후에는 새로운 배열 데이터가 반환되어야 합니다.");
+        assertArrayEquals(newDataset, matrix.getMatrix(), "setMatrix 이후에는 새로운 배열이 반환되어야 합니다.");
     }
 
     @Test
     void printMatrix() {
-        assertDoesNotThrow(() -> matrix.printMatrix(), "printMatrix 실행 중 에러가 발생하면 안 됩니다.");
+        assertDoesNotThrow(() -> matrix.printMatrix(), "printMatrix 실행 중 에러가 발생했습니다.");
     }
+
 }
